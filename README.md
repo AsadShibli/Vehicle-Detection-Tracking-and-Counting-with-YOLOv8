@@ -174,7 +174,7 @@ cv2.destroyAllWindows()
 ```
 
 ## Running the Code:
-1.**Upload the Video**: Ensure your video file is uploaded to the specified directory in your Google Drive.
+1.**Upload the Video**: Ensure your video file is uploaded to the input_video folder in your Google Drive.
 2.**Execute the Code**: Run the script in Google Colab or your local environment.
 3. **Output**: The processed video will be saved in the output_video/ directory with detected and tracked vehicles.
 
