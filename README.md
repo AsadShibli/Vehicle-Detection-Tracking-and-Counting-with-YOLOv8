@@ -1,19 +1,31 @@
 # Vehicle Detection, Tracking, and Counting with YOLOv8
 
-Throughout this tutorial, you'll delve into the intricacies of YOLOv8, a powerful object detection algorithm, to identify vehicles in real-time. Not stopping there, you'll also learn the fundamentals of vehicle tracking, enabling you to monitor their movements seamlessly. Finally, we'll explore advanced techniques to count vehicles direction-wise, providing invaluable insights into traffic flow analysis. Get ready to embark on a journey of learning and mastery in computer vision with YOLOv8. Let's dive in!
+Welcome to this comprehensive tutorial on using YOLOv8 for real-time vehicle detection and tracking! This repository provides everything you need to get started with identifying and monitoring vehicles using advanced computer vision techniques. Here's what you'll learn:
+
+1.**Real-Time Vehicle Detection with YOLOv8**: Dive into the intricacies of YOLOv8, a state-of-the-art object detection algorithm, and learn how to identify vehicles in real-time.
+
+2.**Vehicle Tracking Fundamentals**: Gain insights into the fundamentals of vehicle tracking, enabling you to monitor vehicle movements seamlessly.
+
+3.**Advanced Techniques for Direction-Wise Vehicle Counting**: Explore advanced techniques to count vehicles based on their direction, offering invaluable insights into traffic flow analysis.
+
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Setup](#setup)
 - [Code Explanation](#code-explanation)
 - [Running the Code](#running-the-code)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Introduction
 This project demonstrates how to use YOLOv8 for vehicle detection, tracking, and counting using OpenCV and Python. The primary objective is to identify vehicles in a video, track their movement, and count the number of vehicles moving in different directions.
+
+## Demo
+
+https://github.com/AsadShibli/Vehicle-Detection-Tracking-and-Counting-with-YOLOv8/assets/119102237/e0a4e947-795b-437c-b29b-322ad5f8fc13
 
 ## Installation
 First, ensure you have all the necessary dependencies installed. You can install the required libraries using the following commands:
@@ -31,7 +43,7 @@ First, ensure you have all the necessary dependencies installed. You can install
 !pip install pandas
 !pip install opencv-python-headless
 ```
-1 .** Mount Google Drive:** This is needed if you're using Google Colab.
+1 . **Mount Google Drive**: This is needed if you're using Google Colab.
 
 ```python
 from google.colab import drive
@@ -162,8 +174,8 @@ cv2.destroyAllWindows()
 ```
 
 ## Running the Code:
-1.** Upload the Video**: Ensure your video file is uploaded to the specified directory in your Google Drive.
-2.** Execute the Code**: Run the script in Google Colab or your local environment.
+1.**Upload the Video**: Ensure your video file is uploaded to the specified directory in your Google Drive.
+2.**Execute the Code**: Run the script in Google Colab or your local environment.
 3. **Output**: The processed video will be saved in the output_video/ directory with detected and tracked vehicles.
 
 ## Results:
