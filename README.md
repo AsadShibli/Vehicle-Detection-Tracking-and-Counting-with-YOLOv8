@@ -37,13 +37,7 @@ First, ensure you have all the necessary dependencies installed. You can install
 !pip install opencv-python-headless
 ```
 ## Setup
-First, ensure you have all the necessary dependencies installed. You can install the required libraries using the following commands:
 
-```bash
-!pip install ultralytics
-!pip install pandas
-!pip install opencv-python-headless
-```
 1 . **Mount Google Drive**: This is needed if you're using Google Colab.
 
 ```python
